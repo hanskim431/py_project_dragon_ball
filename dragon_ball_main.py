@@ -12,12 +12,11 @@ while True:
 
   select_action(cpu_charator, random_cpu_action(user_charator, cpu_charator))
   
-  failed_input = True
 
-  while failed_input :
+  while True :
     try:
       select_action(user_charator, input('\n당신이 취할 행동은? '))
-      failed_input = False
+      break
     except WrongActionError as err:
       print('잘못된 입력값 입니다.')
       continue
