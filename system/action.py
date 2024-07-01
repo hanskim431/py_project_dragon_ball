@@ -24,7 +24,6 @@ def parseAction(action:str):
 
 def select_action(charator:char.Charator, action:str):
   parsed_action = parseAction(action)
-  print('🚀 ~ parsed_action:', parsed_action)
 
   match parsed_action:
     case 'ki':
