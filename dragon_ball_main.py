@@ -15,7 +15,7 @@ while True:
 
   while True :
     try:
-      select_action(user_charator, input('\n당신이 취할 행동은? '))
+      select_action(user_charator, input('\n당신이 취할 행동은? [ 기, 막기, 공격, 에너지파, 텔레포트 ]'))
       break
     except WrongActionError as err:
       print('잘못된 입력값 입니다.')
