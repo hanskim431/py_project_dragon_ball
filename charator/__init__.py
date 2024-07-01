@@ -1,0 +1,1 @@
+__all__ = ['charator'] #__all__구문에 전부 있으면 모든 모듈 import 가능
